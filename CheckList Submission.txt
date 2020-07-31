@@ -1,0 +1,12 @@
+TODOLIST
+1. Anda bebas menentukkan tema aplikasi yang ingin dibuat, terkecuali tema Club Finder atau Pencarian Klub Olahraga atau Sepakbola dan Dicoding Books.
+Solusi: Covid-19 Report
+2. Menggunakan standar ES6 sintaks dalam menuliskan kode JavaScript pada proyek yang dibuat.
+Solusi: Done
+3. Terdapat minimal satu penerapan custom element.
+Solusi: Done, CustomElement terdapat di Navigasibar
+4. Menggunakan Webpack sebagai module bundler dan environment dalam pengembangan
+Solusi : Done
+5. Memanfaatkan API dengan menggunakan konsep AJAX dalam menampilkan data yang dinamis pada aplikasi yang dibuat.
+Solusi: Done
+

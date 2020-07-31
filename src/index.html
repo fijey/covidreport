@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Corona Report</title>
+    <!--    Perlu ditambahkan! karena untuk membaca styling bootstrap secara global -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <navigasi-bar>
+    </navigasi-bar>
+    <center>
+        <div class="opening mt-lg-5">
+            <h1>Realtime Covid-19 Report </h1>
+        </div>
+        <div class="last-update"></div>
+    </center>
+    <div class="container">
+        <!-- cardviewisiglobal -->
+        <div class="card mb-3 mt-3">
+            <div class="card-body bg-dark">
+                <center>
+                    <h2>GLOBAL REPORT</h2>
+                </center>
+
+                <div class="row mt-3">
+                    <div class="col-md-4">
+                        <div class=" card positif-header text-white bg-dark mb-3 inline" style="max-width: 16rem;">
+                            <center>
+                                <div class="card-header">
+                                    <span class="emot-img-size"><img src="./kecewa.png" alt="">
+                                    </span>
+
+
+                                </div>
+                                <div class=" card-body">
+                                    <div id class="positif">
+                                        <h6 class="card-title">POSITIF</h6>
+                                        <h5 class="positif-global"></h5>
+                                        <h6>Orang</h6>
+
+                                    </div>
+
+                                </div>
+                        </div>
+
+                    </div>
+                    <div class="div col-md-4">
+                        <center>
+                            <div class=" card text-white bg-dark mb-3 " style="max-width: 16rem;">
+                                <div class="card-header">
+
+                                    <span class="emot-img-size"><img src="./nangis.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body">
+                                    <div id class="negatif">
+                                        <h6 class="card-title">MENINGGAL</h6>
+                                        <h5 class="meninggal-global"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                    <div class="div col-md-4">
+                        <center>
+                            <div class=" card text-white bg-dark mb-3 " style="max-width: 16rem;">
+                                <div class="card-header">
+
+                                    <span class="emot-img-size"><img src="./senang.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body">
+                                    <div id class="sembuh">
+                                        <h6 class="card-title">SEMBUH</h6>
+                                        <h5 class="sembuh-global"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <p class="card-text">#staysaveall</p>
+            </div>
+            </center>
+        </div>
+        <!-- akhirglobal -->
+        <!-- awalindonesia -->
+        <div class="card bg-black mb-3 mt-3">
+            <div class="card-body ">
+                <center>
+                    <h2>INDONESIA REPORT TODAY</h2>
+                </center>
+
+                <div class=" row mt-3">
+                    <div class="col-md-4">
+                        <div class=" card text-white bg-dark mb-3 inline" style="max-width: 16rem;">
+                            <center>
+                                <div class="card-header">
+                                    <span class="emot-img-size"><img src="./kecewa.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body">
+                                    <div id class="positif">
+                                        <h6 class="card-title">POSITIF</h6>
+                                        <h5 class="positif-indo"></h5>
+                                        <h6>Orang</h6>
+
+                                    </div>
+
+                                </div>
+                        </div>
+
+                    </div>
+                    <div class="div col-md-4">
+                        <center>
+                            <div class=" card text-white bg-dark mb-3 " style="max-width: 16rem;">
+                                <div class="card-header">
+
+                                    <span class="emot-img-size"><img src="./nangis.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body">
+                                    <div id class="negatif">
+                                        <h6 class="card-title">MENINGGAL</h6>
+                                        <h5 class="meninggal-indo"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                    <div class="div col-md-4">
+                        <center>
+                            <div class=" card text-white bg-dark mb-3 " style="max-width: 16rem;">
+                                <div class="card-header">
+
+                                    <span class="emot-img-size"><img src="./senang.png" alt="">
+                                    </span>
+
+                                </div>
+                                <div class=" card-body">
+                                    <div id class="sembuh">
+                                        <h6 class="card-title">SEMBUH</h6>
+                                        <h5 class="sembuh-indo bold"></h5>
+                                        <h6>Orang</h6>
+                                    </div>
+
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="new-update"></div>
+            </div>
+            </center>
+        </div>
+
+        <!-- akhirindonesia -->
+    </div>
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col">
+                <div class="card shadow text-white">
+                    <div class="card-header bg-dark font-weight-bold">
+                        <h3>Data Covid-19 di Seluruh Negara</h3>
+                    </div>
+                    <div class="card-body table-prov bg-dark">
+                        <div class="table-wrapper-scroll-y my-custom-scrollbar">
+                            <table class="table table-bordered table-striped table-dark table-hover table-prov bg-dark">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">NO.</th>
+                                        <th scope="col">NEGARA</th>
+                                        <th scope="col">POSITIF</th>
+                                        <th scope="col">SEMBUH</th>
+                                        <th scope="col">MENINGGAL</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="tb-prov">
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark text-white text-center">
+        <h4>Covid-19 Report</h4>
+    </footer>
+    <script src="bundle.js">
+    </script>
+</body>
+
+</html>
